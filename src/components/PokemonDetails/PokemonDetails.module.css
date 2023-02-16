@@ -1,0 +1,24 @@
+.pokemon_details {
+    max-width: 300px;
+    width: 100%;
+}
+
+
+.details_title {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    column-gap: 15px;
+    row-gap: 5px;
+
+    margin-bottom: 20px;
+    padding-bottom: 10px;
+    border-bottom: 1px solid #efefef;
+    text-transform: uppercase;
+}
+
+.title_avatar {
+    width: 70px!important;
+    height: 70px!important;
+}

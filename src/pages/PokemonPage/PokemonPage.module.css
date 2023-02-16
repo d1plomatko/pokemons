@@ -1,0 +1,16 @@
+.page_container {
+    padding-top: 40px;
+    padding-bottom: 40px;
+
+    display: flex !important;
+    justify-content: space-between;
+    align-items: center;
+    column-gap: 60px;
+    row-gap: 20px;
+}
+
+@media screen and (max-width: 750px){
+    .page_container {
+        flex-direction: column!important;
+    }
+}

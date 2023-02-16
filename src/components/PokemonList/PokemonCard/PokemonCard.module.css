@@ -1,0 +1,20 @@
+.pokemon_card {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    height: 60px;
+    padding: 5px 10px;
+
+    background-color: #efefef;
+    transition: background-color .25s ease;
+    cursor: pointer;
+
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.pokemon_card:hover {
+    background-color: silver;
+}
+
